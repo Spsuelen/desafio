@@ -1,0 +1,14 @@
+para excluir um diretório no terminal que não existe mais remotamente
+git rm origin
+
+para incluir um novo diretorio
+
+git remote add origin <endereco>
+
+-- após o comando
+
+git push origin master 
+
+-- para verificar se há algum repositório local 
+
+git remote -v
