@@ -1,0 +1,56 @@
+para escolher o local no qual vai trabalhar
+
+cd /c/
+
+para criar uma pasta no terminal do git :
+mkdir nome_escolhido
+
+para entrar na pasta criada :
+cd /c/nome_escolhido
+
+parar listar o que tem na pasta no terminal do git :
+
+ls
+
+para ver arquivos ocultos nos diretórios criados :
+ls -a
+
+
+para limpar as informações no terminal git
+ctrl+l
+
+para iniciar comandos no git :
+git init
+
+para criar um arquivo textual no terminal do git :
+nano nome_escolhido.txt
+
+-- no qual vai abrir uma janelinha para inserir seu texto.
+
+para salvar o que foi escrito
+ctrl+x 
+ctrl+y
+apertar o enter no nome do arquivo.
+
+para verificar o status do arquivo
+
+git status - para verifcar ( os arquivos estarão vermelhos no inicio)
+
+para adicionar :
+
+git add nome_do_arquivo.txt
+
+para verificar o status novamente de como ele está :
+
+git status - para verificar (o arquivo estará verde no segundo momento)
+
+para comitar :
+
+git commit -m"uma mensagem que faça sentido"
+
+para verificar o status novamente
+
+git status - o arquivo não estará mais sendo mostrado, pois foi comitado.
+
+para ver os commits feito :
+git log
