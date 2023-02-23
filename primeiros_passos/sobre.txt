@@ -12,3 +12,4 @@ git push origin master
 -- para verificar se há algum repositório local 
 
 git remote -v
+ps : o comando correto para a exclusao  : git remote rm origin
